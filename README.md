@@ -7,7 +7,7 @@
 
 This project is for educational porpuses only. Pull requests are welcome, but priority is given to the team assigned to it! Thank you for your cooperation!
 
-Site published at https://front-end-by-rimantas.github.io/19-grupe-portfolio-mitech/
+Site published at https://martynas3113.github.io/ToDo-list/.
 
 Design: Random
 
