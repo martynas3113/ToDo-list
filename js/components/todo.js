@@ -80,8 +80,24 @@ class Todo {
         this.renderList();
     }
 
-    initTodoItemEditing(itemDOM) {
+    initTodoItemEditing(taskIndex) {
+        const task = this.taskList[taskIndex]
+        console.log(task);
         console.log('Todo redagavimas');
+
+        const lightbox = document.querySelector('.lightbox')
+        const formUpdate = lightbox.querySelector('form.update');
+        const textarea = formUpdate.querySelector('textarea');
+        const buttonCancel = formAdd.querySelector('button.cancel');
+        const buttonAdd = formAdd.querySelector('button.add');
+        lightbox.dataset.form = 'update';
+        textarea.value = tast.text;
+        lightbox.classList.add('show');
+
+        buttonCancel.addEventListener('click', e => {
+            e.preventDefault();
+        })
+        
 
     }
 }
